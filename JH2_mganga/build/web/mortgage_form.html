@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Mortgage Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+           .text-fields 
+           {
+             text-align:center; 
+             background-color:black;
+             color:red;
+            
+           }
+           placeholder{
+               color:white;
+           }
+            
+        </style>
+    </head>
+    <body>
+        
+        <h1 style = "color:teal; text-align:center"> Mortgage Calculator </h1>
+        <form  method = "post" action = "Calculate_Servlet" style ="text-align:center">
+
+            <p style = "margin-left: 1px">Interest Rate:</p>&nbsp;<input  class = 
+          "text-fields" type ="text"  name ="rate" placeholder = "Enter Interst Rate"/>
+             
+
+            <p style = "margin-left: 1px">Mortgage Amount:</p>&nbsp;<input class =
+         "text-fields" type ="text" name ="principal" placeholder = "Enter Mortgage Amount" />
+
+
+
+            <br/>
+
+            <input  type ="submit" name ="Form Submitted" style = "text-align:center"/>
+
+
+
+
+        </form>
+    </body>
+</html>
