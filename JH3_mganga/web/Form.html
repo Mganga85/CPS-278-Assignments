@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+Author:  Matthew Ganga
+CPS      278
+room# TI 243 
+
+Mortgage Calculator JH3 part I transformed into jsp. 
+-->
+<html>
+    <head>
+        <title>Mortgage Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            .text-fields 
+            {
+                text-align:center; 
+                background-color:black;
+                color:red;
+
+            }
+            placeholder{
+                color:white;
+            }
+
+
+
+        </style>
+    </head>
+    <body style="background-color:teal">
+
+        <h1 style = "text-align:center"> Mortgage Calculator </h1>
+
+        <form action = "calcMortgage.jsp" style ="text-align:center">
+            <p style = "margin-left: 1px">Interest Rate:</p>&nbsp;<input  class = 
+                                                                          "text-fields" type ="number"  name ="rateString" step="1" min ="0" placeholder = "Interest Rate" required/>
+
+
+            <p style = "margin-left: 1px">Mortgage Amount:</p>&nbsp;<input class =
+                                                                           "text-fields" type ="number" step = "1" min =0 name ="principalString" placeholder = "Enter Mortgage Amount" required/>
+
+            <p style = "margin-left: 1px">Monthly Payment Amount:</p>&nbsp;<input class =
+                                                                                  "text-fields" type ="number" step = "1" min ="0" name ="paymentString" placeholder = "Enter Monthly Payment" required/>
+
+            <p style = "margin-left: 1px">Length of Mortgage:</p>&nbsp;<input class =
+                                                                              "text-fields" type ="number" name ="yearsString"   min ="0" placeholder = "Enter years" required/>
+
+            <br/>
+
+            <input  type ="submit" name ="Form Submitted" style = "text-align:center"/>
+
+        </form>
+    </body>
+</html>
