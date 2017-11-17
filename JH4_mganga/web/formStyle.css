@@ -1,0 +1,53 @@
+/*
+    Created on : Sep 25, 2017, 4:35:03 PM
+    Author     : Matt Ganga
+    Style sheet for JH3 form that collects data for MortgageCalc.jsp file
+*/
+
+body.output{
+    background-color:#0f6251;
+    text-align:center;
+    
+}
+
+
+td.total{
+   
+   
+  text-align:left;
+     border:3px #c7ddbe;
+     border-collapse:collapse;
+     background-color:white;
+     color:red;
+     font-weight: bold;
+}
+h1.main{
+    
+    text-decoration:underline;
+    color:red;
+}
+
+
+table,th,tr,td{
+    margin:auto;
+    width:50%;
+     border:3px solid #18441e;
+     border-collapse:collapse;
+     text-align:center;
+     background-color:#c7ddbe;
+     
+}
+hr{
+      height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+div.one{
+    
+    color:#c7ddbe;
+    
+    
+}
+
+
